@@ -1,0 +1,24 @@
+$font-color: brown;
+// this is a variable
+// it needs to be translated
+
+body{
+
+    div{
+        color: brown;
+    }
+}
+
+%messages {
+    //basic styling, default
+}
+
+.class {
+    @extend %messages 
+    // especific styling 1
+}
+
+.class {
+    @extend %messages 
+    // especific styling 2
+}
